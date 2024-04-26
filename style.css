@@ -1,0 +1,231 @@
+/* Write some CSS below */
+body{
+    font-size: 13px;
+    font-family: 'Hind Siliguri';
+    margin: 0;
+    padding: 0;
+}
+
+± 
+h1{
+    font-size: 100px;
+}
+
+h2{
+font-size: 24px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h1,h2,h3 {
+    font-family: 'Hind Siliguri';
+}
+
+
+.banner{
+    background-image: url(images/drop.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+}
+
+.banner background-image{
+    filter: brightness(0.5);
+}
+
+.banner p{
+    color: white;
+}
+
+
+.btn-red{
+    background-color: #EAE2DF;
+    padding: 15px 25px;
+    color: #301A16;
+    text-align: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #D6CAC5;
+    color: #806661;
+}
+
+#monbtn{
+    transition: 0.7s;
+    display: inline-block;
+}
+
+#monbtn:hover{
+    transform: translateY(5px);
+}
+
+#monbutton{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#monbutton:hover{
+    transform: translateY(5px);
+}
+
+.banner p{
+color: white;
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+.section-white{
+background-color: white;
+color: #301A16;
+margin: 50px 0;
+}
+
+.container{
+    margin: 20px auto;
+    width: 900px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.cardss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card-white{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.card-white img {
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 20px auto;
+    opacity: 100;
+}
+
+.card-white a{
+    padding: 5px 15px;
+}
+
+.footer{
+    background-color: #EAE2DF;
+    color: #301A16;
+    padding: 80px 0;
+    font-size: 14px;
+
+}
+
+#foot{
+    margin: 0 auto;
+    width: 900px;
+    gap: 50px;
+}
+
+#foot.cardss{
+    gap: 100px;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li{
+    display: inline;
+}
+
+.list-inline li i {
+    font-size: 40px;
+    color: #301A16;
+    margin: 0 5px;
+    letter-spacing: 30px;
+}
+
+#sub {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+object-fit: cover;
+text-align: center;
+}
+
+.inscription{
+    margin-bottom: 45px;
+    text-align: center;
+    color: #301A16;
+    font-size: 19px;
+}
+
+.inscription a{
+    margin-top: 30px;
+}
+
+#mescartes{
+    transition: 0.5;
+}
+
+#mescartes:hover{
+    transform: scale(1.5);
+}
+
+#logo{
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 20px auto;
+    opacity: 100
+}
+
+.video{
+    text-align: center;
+    background-color: #EAE2DF;
+    color: #301A16;
+    padding: 20px;
+    margin: 50px 0;
+}
+
+@media(max-width:950px){
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media(max-width:600px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container{
+        width: 400px;
+    }
+}
